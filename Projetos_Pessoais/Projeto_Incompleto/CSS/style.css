@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* FORMATAÇÃO LAYOUT HOME*/
+
+body{
+    font-size: 1em;
+    background: url("../Imagens/backgroundSite2.jpg");
+}
+
+#container{
+    background: #000000;
+    height: 50px;
+    text-align: center;
+}
+
+#logo{
+    float: left;
+    color: #fff;
+    padding: 10px;
+}
+
+#menuHorizontal{
+    line-height: 50px;
+}
+
+#menuHorizontal a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#menuHorizontal a:visited{
+    color: gray;
+}
+
+#areaPrincipal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#postagens{
+    width: 660px;
+    float: left;
+}
+
+.posts{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+#menuLateral{
+    background-color: #fff;
+    width: 240px;
+    margin-top: 30px;
+    float: right;
+}
+
+#rodape{
+    text-align: center;
+    clear: both;
+    padding: 5px;
+    background-color: gray;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* FORMATAÇÃO CADASTRAR */
+
+#formulario{
+    float: left;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+#formulario h2{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 8px;
+    margin: 8px;
+}
+
+input.submit{
+    cursor: pointer;
+    width: 150px;
+    background-color: gray;
+    border: 2px solid gray;
+    background: linear-gradient(to bottom, #808080, #D3D3D3);
+}
+
+/* FORMATAÇÃO LOGAR */
+
+#formularioLogar{
+    float: left;
+    width: 400px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+#formularioLogar h2{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* FORMATAÇÃO POSTAGENS */
+
+.posts h2{
+    padding: 5px;
+}
+
+.posts p{
+    padding: 8px;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+/* FORMATAÇÕES EM GERAL */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+    color: #fff;
+    background-color: #000;
+}
+
+ul a:hover{
+    background-color: gray;
+    color: #fff;
+}
